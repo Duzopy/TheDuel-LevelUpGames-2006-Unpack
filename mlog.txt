@@ -1,0 +1,154 @@
+GUNZ 1,0,0,290 launched. build (Aug 30 2006 10:25:24) 
+Log time (08/30/06 16:08:10)
+test.txt not found 
+NON-Skip XTrapPatch
+CPU ID = GenuineIntel ( family = 15 , model = 2 , stepping = 9 ) @ 2394 MHz
+Display Device = Intel(R) 82865G Graphics Controller ( vendor=8086 device=2572 subsys=2851014 revision=2 )
+Display Driver Version = 6.14.0010.4299
+Windows = 5.1 Build 2600 , Service Pack 2 (515056KB) :  Windows xp..
+Load XML from memory : system/locale.xml- SUCCESS
+Country : (BRZ), Language : (BRZ)
+Load XML from memory : system/gametypecfg.xmlLoad Config from file : config.xml- SUCCESS
+Load XML from memory : system/system.xml- SUCCESS
+Load XML from memory : system/strings.xml(0x0016) - SUCCESS
+Load XML from memory : system/cserror.xml(0x0016) - SUCCESS
+Load XML from memory : system/messages.xml(0x0016) - SUCCESS
+WFog Enabled Device.
+Vertex Shader isn't supported
+device created.
+Video memory 35.000000 
+main : RGetLenzFlare()->Initialize() 
+main : ZGetInitialLoading()->Initialize() 
+main : g_Mint.Initialize() 
+ZApplication::OnCreate : begin
+0(Driver de som primário): Hardware Mixing Not Supported
+1(SoundMAX Digital Audio): Hardware Mixing Not Supported
+[[[getMaxChannel32]]]]
+
+-------------------> Sound Engine Create : 2.627000 
+
+ZApplication::OnCreate : m_SoundEngine.Create
+1
+3
+Load XML from memory : System/tips.xml(0x0016)- SUCCESS
+ZGameInterface::LoadBitmaps
+ZGameInterface::LoadBitmaps2
+loading pictures : 2.120000 
+warning : bitmap slot_head.tga not found.
+warning : bitmap slot_head.tga not found.
+warning : bitmap icon_gameroom.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+warning : bitmap icon_gameroom_s.tga not found.
+IDLResource Loading Success!!
+IDL resources : 0.679000 
+ZGameInterface::InitInterfaceOption
+Number of Display mode : 109
+Number of Display mode : 109
+ZGameInterface::InitInterfaceOption ok
+::InitMaps() > No Current ChannelRule 
+ZGameInterface::OnCreate : InitInterface 
+Screen Effect Manager Create : 0.402000 
+ZGameInterface::OnCreate : m_pScreenEffectManager->Create()
+ZGameInterface::OnCreate : m_pEffectManager->Create()
+ZGameInterface::OnCreate : g_pGameClient->Create()
+ZGameInterface::OnCreate : done 
+Bird : 5
+
+-------------------> GameInterface Create : 4.839000 
+
+ZApplication::OnCreate : GameInterface Created
+ZApplication::OnCreate : m_pInterface->OnCreate() 
+ZApplication::OnCreate : m_MeshMgr.LoadXmlList(character.xml) 
+
+-------------------> Character Loading : 9.241000 
+
+
+-------------------> WeaponMesh Loading : 1.512000 
+
+----------> in zip ( model/weapon/item/chocobar.elu ) file not found!! 
+ ZApplication::OnCreate : m_WeaponMeshMgr.LoadXmlList(weapon.xml) 
+
+-------------------> Worlditem Loading : 0.141000 
+
+ZApplication::OnCreate : CreateConsole 
+ZApplication::OnCreate : MGetMatchItemDescMgr()->ReadXml 
+Error while Read Item Descriptor system/zeffect.xmlZApplication::OnCreate : MGetMatchItemEffectDescMgr()->ReadXml 
+ZApplication::OnCreate : MGetMatchWorldItemDescMgr()->ReadXml 
+ZApplication::OnCreate : ZGetChannelRuleMgr()->ReadXml 
+ZApplication::OnCreate : MGetChattingFilter()->Create 
+
+-------------------> ETC .. : 0.461000 
+
+main : g_App.OnCreate() 
+RBspObject::Open : begin interface/login/login.rs 
+RBspObject::Open : Open_MaterialList
+RBspObject::Open : Open_LightList
+RBspObject::Open_ObjectList : begin
+RBspObject::Open_ObjectList : size 13 
+RBspObject::Open_ObjectList : end
+RBspObject::Open : OpenDescription
+RBspObject::OpenRs : file.Open 
+RBspObject::OpenRs : file.Read(&header) 
+RBspObject::OpenRs : file.Read(&nMaterial) 
+RBspObject::OpenRs : Open_Nodes begin 
+RBspObject::OpenRs : Open_Nodes end 
+RBspObject::Open : OpenRs 
+RBspObject::Open : OpenBsp 
+RBspObject::OpenLightmap : file.Read(&header)
+RBspObject::OpenLightmap nCount = 1
+RBspObject::OpenLightmap 0
+RBspObject::OpenLightmap : file.Read(&m_nLightmap) done
+RBspObject::OpenLightmap : end 
+RBspObject::Open : done
+ZInterfaceBackground::LoadMesh pMapDesc->LoadSmokeDesc 
+main : OnCreate() done
+MExitListener !
+wm_close
+main : OnDestroy()
+ZSoundEngine::Destroy
+ZSoundEngine::Destroy() : Close FMod
+ZApplication::OnDestroy : DestroyConsole() 
+ZGameInterface::OnDestroy() : begin 
+ZGameInterface::OnDestroy() : g_pGameClient->Destroy() 
+PeerInfoList Released
+SAFE_DELETE(g_pGameClient) : 
+ClearLooks() End : 
+m_WidgetMap.Clear() End : 
+MCursorSystem::Destroy() End : 
+m_IDLResource.Clear() End : 
+ZGameInterface::FinalInterface() End: 
+ZGameInterface::OnDestroy() : done() 
+ClearLooks() End : 
+m_WidgetMap.Clear() End : 
+MCursorSystem::Destroy() End : 
+ZApplication::OnDestroy : m_MeshMgr.DelAll() 
+ZApplication::OnDestroy : m_WeaponMeshMgr.DelAll() 
+ZApplication::OnDestroy done 
+main : g_Mint.Finalize()
+main : g_DInput.Destroy()
+main : g_App.OnDestroy()
+main : ZGetConfiguration()->Destroy()
+main : MBitmapManager::DestroyAniBitmap()
+main : OnDestroy() done
